@@ -1,0 +1,4 @@
+<view class="compontent-ul">
+	<view class="title">{{componentTitle}}</view>
+	<slot></slot>
+</view>

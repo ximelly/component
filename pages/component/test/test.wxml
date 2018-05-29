@@ -1,0 +1,7 @@
+<view class="container parent-class">
+	<slot name="slot2"></slot>
+	<view class="select">{{parentMessage}}</view>
+	<view>{{componentData}}</view>
+	<slot name="slot1"></slot>
+	<button bindtap="btnClick">sdg</button>
+</view>

@@ -1,0 +1,18 @@
+<component-model bind:myevent="childReady2">
+	<component-test parent-message="调用方数据" parent-class="bgColor" wx:if="{{showComponent}}" bind:myevent="childReady">
+		<view class="myDate" slot="slot2">{{myDate}}</view>
+		<view class="myDate" slot="slot1">slot1</view>
+	</component-test>
+</component-model>
+<button bindtap="addBtn">添加/删除节点</button>
+
+
+<!-- 组件间关系 -->
+
+<button bindtap="changeList">change Tab</button>
+<button bindtap="deleteList">delete li</button>
+<button bindtap="addList">add li</button>
+<button bindtap="moveList">move li</button>
+<component-ul component-title="{{ulList[index]}}">
+	<component-li wx:for="{{liList[ulList[index]]}}" wx:key="{{item}}"><view>{{item}}</view></component-li>
+</component-ul>

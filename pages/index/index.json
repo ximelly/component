@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "component-test": "../component/test/test",
+    "component-model": "../component/model/model",
+    "component-ul": "../component/ul/ul",
+    "component-li": "../component/li/li"
+  }
+}

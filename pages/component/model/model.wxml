@@ -1,0 +1,4 @@
+<view bind:myevent="childReady3">
+	<view>{{componentData}}</view>
+	<slot></slot>
+</view>
