@@ -18,8 +18,8 @@ Component({
 		}
 	},
   data:{
+  	bg_color:""
   },
   methods:{
-
   }
 });

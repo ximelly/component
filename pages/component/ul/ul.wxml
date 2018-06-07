@@ -1,3 +1,7 @@
+
+<input placeholder="请输入子组件的背景颜色" value="{{color}}" bindinput="inputChange"/>
+<button bindtap="changeColor">comfirm</button>
+<button bindtap="resetColor">reset</button>
 <view class="compontent-ul">
 	<view class="title">{{componentTitle}}</view>
 	<slot></slot>
